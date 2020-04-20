@@ -1,0 +1,13 @@
+/** WRITE YOUR TIPS IN THIS FILE **/
+
+1. Starting with reading the handouts very carefully because lots of useful information is contained in it. 
+In addition, you should clearly remember the class members in search.py and sokoban.py and they can help with
+both coding and debugging.
+
+2. Alternate heuristic is a difficult function and you should consider lots of cases. But it could be divided
+into two parts and I call them: infinite distance part and distance penalty part.
+
+3. The inifinite distance part will include state when there is never a solution. In this case, you should 
+return the infinit distance to kind of terminate this successor. Distance penalty means that when there is another 
+box or walls on the way to the destination. The distance should be a little larger than the original 
+manhanttan distance.
